@@ -1,0 +1,163 @@
+@font-face {
+	font-family: "Zona";
+	src: url('fonts/ZonaPro-Thin.otf');
+}
+
+body{
+  font-family: "Zona", Helvetica, Arial, sans-serif;
+  margin:0px 0px;
+ }
+
+p, h5{color : #005067;}
+.orange-color {color : #e84300;}
+.orange-background {background-color: #e84300;}
+.orange-background:hover {background-color: #EB974E;}
+.blue-background {background-color: #005067;}
+.blue-color {color : #005067;}
+.white-color {color : white;}
+
+.border {
+  border: 1px solid #005067;
+}
+nav{
+  background-color: rgba(255, 255, 255, 1);
+
+}
+
+.blue-background p, .blue-background h5
+ {color : #ffffff;}
+
+
+#hero{
+  background: #005067 url(images/logo3iL.png) no-repeat right bottom fixed ;
+  background-attachment: fixed;
+  height: 1000px;
+  position:relative;
+  height:100vh;
+}
+#hero-connect{
+  background-image:url(images/back.jpg);
+  background-size:cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  position:relative;
+  height:100vh;
+  filter: grayscale(80%);
+}
+.separation{
+  border-top: 1px solid #005067;
+  width: 30%;
+  height: 0px;
+  margin : auto;
+}
+
+#hero .header, #hero-connect .header{
+  position:absolute;
+  top:50%;
+  text-align:center;
+  width:100%;
+  color:#fff;
+  font-size:36px;
+  -ms-transform: translate(0,-50%); /* IE 9 */
+    -webkit-transform: translate(0,-50%); /* Safari */
+    transform: translate(0,-50%);
+    filter: grayscale(0%);
+}
+
+#service{
+  text-align : justify;
+	background: #005067 url(images/logo3iL2.png) no-repeat left bottom fixed ;
+
+}
+.icon-block
+{
+  min-height: 350px;
+  position : relative;
+}
+
+
+
+.icon-service{
+  color: #ffffff;
+  transition: color 0.2s ease;
+  transition: border-color 0.2s ease;
+  transition: border-radius 0.2s ease;
+  border : 1px solid #ffffff;
+  border-radius : 10px;
+}
+
+.icon-service i
+{
+  font-size : 50px;
+}
+.icon-service:hover{
+  color : #e84300;
+  border-radius : 20px;
+  border-color : #e84300;
+}
+#team
+{
+  opacity : 0;
+}
+.photo-team{
+  width : 200px;
+  transition: border 0.2s ease;
+  border : 1px solid #005067;
+
+
+}
+.photo-team:hover{
+  border : 1px solid #e84300;
+}
+.name{
+  font-weight: bold;
+  color: #005067;
+}
+
+.icon-reseaux{
+  width : 50px;
+}
+.tabs .tab a:hover, .tabs .tab a.active{
+  color : #e84300;
+
+}
+
+.tabs .tab a
+{
+  color : #005067;
+}
+.tabs .indicator{
+  background-color:  #e84300;
+}
+.nav-tab{
+  border : 1px solid #005067;
+  padding : 10px;
+  box-shadow: none;
+  border-radius : 10px;
+  margin : 40px 0 40px 0;
+}
+
+.title-page
+{
+  background: repeating-linear-gradient(
+  -45deg,
+  #005067,
+  #005067 10px,
+  #24697C 12px,
+  #24697C 12px
+  );
+  padding : 0 0 59px 0;
+}
+.about{
+  position : absolute;
+  bottom : 0;
+  margin-bottom:10px;
+  transition: color 0.5s ease;
+}
+.about:hover
+{
+
+  color : #e84300;
+}
