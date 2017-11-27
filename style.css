@@ -25,7 +25,7 @@ nav{
 }
 
 .blue-background p, .blue-background h5
- {color : #ffffff;}
+ {color : #005067;}
 
 
 #hero{
@@ -35,16 +35,10 @@ nav{
   position:relative;
   height:100vh;
 }
-#hero-connect{
-  background-image:url(images/back.jpg);
-  background-size:cover;
+#heroDevis{
+	background: #005067 url(images/logo3iL.png) no-repeat right bottom fixed ;
   background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 500px;
   position:relative;
-  height:100vh;
-  filter: grayscale(80%);
 }
 .separation{
   border-top: 1px solid #005067;
@@ -80,23 +74,20 @@ nav{
 
 
 .icon-service{
-  color: #ffffff;
+	background: white;
+  color: #005067;
   transition: color 0.2s ease;
   transition: border-color 0.2s ease;
   transition: border-radius 0.2s ease;
-  border : 1px solid #ffffff;
-  border-radius : 10px;
+  border : 1px solid #005067;
+  border-radius : 5px;
 }
 
 .icon-service i
 {
   font-size : 50px;
 }
-.icon-service:hover{
-  color : #e84300;
-  border-radius : 20px;
-  border-color : #e84300;
-}
+
 #team
 {
   opacity : 0;
@@ -161,3 +152,13 @@ nav{
 
   color : #e84300;
 }
+
+.devis
+{
+	background: white;
+}
+
+.btn:hover, .btn-large:hover {background-color: #e84300;}
+.btn, .btn-large {border : 1px solid white;}
+.submit:hover { background-color: #005067;}
+.submit { border: none; !important}
